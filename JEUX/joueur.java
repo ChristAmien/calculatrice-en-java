@@ -47,13 +47,13 @@ public class joueur {
 
     // Afficher l'état du joueur
     public void afficherEtat() {
-        System.out.println(nom + " → Vies: " + vies + ", Dégâts: " + degats);
+        System.out.println(nom + " Vies: " + vies + ", Dégâts: " + degats);
     }
 
     // Méthode principale pour tester
     public static void main(String[] args) {
         joueur joueur1 = new joueur("Mario", 100, 20, 30);
-        joueur joueur2 = new joueur("Bowser", 120, 15,35 );
+        joueur joueur2 = new joueur("Koffi nango", 120, 15,35 );
 
         joueur1.afficherEtat();
         joueur2.afficherEtat();
